@@ -16,6 +16,74 @@
       "revId": "4f6988644523dbf31ca7e4416d4003051aebdaa7",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_a020589c",
+        "filename": "python-oslo-config.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1002924
+      },
+      "writtenOn": "2015-09-01T09:04:50Z",
+      "side": 1,
+      "message": "what about requires:\npython3-pbr\npython3-netaddr\npython3-stevedore\npython3-six",
+      "revId": "4f6988644523dbf31ca7e4416d4003051aebdaa7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_9d12db60",
+        "filename": "python-oslo-config.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 1002924
+      },
+      "writtenOn": "2015-09-01T09:04:50Z",
+      "side": 1,
+      "message": "please move LICENSE from %doc to\n%license LICENSE",
+      "revId": "4f6988644523dbf31ca7e4416d4003051aebdaa7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_bd15df4a",
+        "filename": "python-oslo-config.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1002924
+      },
+      "writtenOn": "2015-09-01T09:04:50Z",
+      "side": 1,
+      "message": "%license LICENSE",
+      "revId": "4f6988644523dbf31ca7e4416d4003051aebdaa7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_dd0b8329",
+        "filename": "python-oslo-config.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1002924
+      },
+      "writtenOn": "2015-09-01T09:04:50Z",
+      "side": 1,
+      "message": "%license LICENSE",
+      "revId": "4f6988644523dbf31ca7e4416d4003051aebdaa7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
