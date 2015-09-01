@@ -1,0 +1,7 @@
+Verified+1: rdo-ci-jenkins <brad+jenkins@redhat.com>
+Code-Review+2: Matthias Runge <mrunge@matthias-runge.de>
+Submitted-by: Matthias Runge <mrunge@matthias-runge.de>
+Submitted-at: Tue, 01 Sep 2015 17:10:58 +0200
+Reviewed-on: https://review.gerrithub.io/244905
+Project: openstack-packages/python-oslo-config
+Branch: refs/heads/rpm-master
