@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_3d2aaf90",
+        "filename": "python-oslo-config.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1002924
+      },
+      "writtenOn": "2015-09-01T08:59:04Z",
+      "side": 1,
+      "message": "please move BuildArch: below patches definition. otherwise %patches variable will be empty.",
+      "revId": "4f6988644523dbf31ca7e4416d4003051aebdaa7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
