@@ -1,0 +1,7 @@
+Code-Review+2: Dan Prince <dprince@redhat.com>
+Verified+1: Dan Prince <dprince@redhat.com>
+Submitted-by: Dan Prince <dprince@redhat.com>
+Submitted-at: Tue, 01 Sep 2015 21:58:28 +0200
+Reviewed-on: https://review.gerrithub.io/245028
+Project: openstack-packages/python-oslo-config
+Branch: refs/heads/rpm-master
