@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_0fca084f",
+        "filename": "python-oslo-config.spec",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2015-09-03T10:15:00Z",
+      "side": 1,
+      "message": "pypi_name is actually oslo.config\nAlso macros should be consistent across all python-oslo-* RPMs, all others have %global pypi_name oslo.PROJECT",
+      "range": {
+        "startLine": 2,
+        "startChar": 1,
+        "endLine": 2,
+        "endChar": 7
+      },
+      "revId": "5a839da461afafd92a696852f2e494dd579bf37b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
