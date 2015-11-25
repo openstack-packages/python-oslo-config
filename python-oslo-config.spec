@@ -69,6 +69,7 @@ Obsoletes:  python-%{pypi_name}-doc < %{epoch}:%{upstream_version}
 BuildRequires: python-sphinx
 BuildRequires: python-fixtures
 BuildRequires: python-oslo-sphinx >= 2.3.0
+BuildRequires: python-oslotest >= 1.10.0
 BuildRequires: python-netaddr
 BuildRequires: python-stevedore
 
@@ -89,6 +90,14 @@ Requires:   python3-pbr
 BuildRequires: python3-devel
 BuildRequires: python3-setuptools
 BuildRequires: python3-pbr
+# Required for tests
+BuildRequires: python3-six >= 1.9.0
+BuildRequires: python3-netaddr
+BuildRequires: python3-fixtures
+BuildRequires: python3-oslo-sphinx >= 2.3.0
+BuildRequires: python3-stevedore
+BuildRequires: python3-netaddr
+BuildRequires: python3-oslotest >= 1.10.0
 
 %description -n python3-%{pypi_name}
 The Oslo project intends to produce a python library containing
@@ -132,6 +141,7 @@ popd
 %check
 %{__python2} setup.py test
 %if 0%{?with_python3}
+rm -rf .testrepository
 %{__python3} setup.py test
 %endif
 
