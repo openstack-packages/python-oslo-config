@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac4a560_a4587557",
+        "filename": "python-oslo-config.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2015-12-04T16:33:25Z",
+      "side": 1,
+      "message": "duplicate to line 95\nWhile at it, maybe sort the list to prevent dups in the future.",
+      "revId": "63a94c384e0bf53771d2587f113a14b4e5c67c79",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
