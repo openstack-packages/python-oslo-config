@@ -109,7 +109,7 @@ parsing library from the Oslo project.
 %endif
 
 %prep
-%setup -q -n %{sname}-%{upstream_version}
+%setup -n %{sname}-%{upstream_version} -S git
 
 %patch0001 -p1
 
